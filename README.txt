@@ -12,5 +12,6 @@ Powershell script for importing Certbot Exchange certificate.
 #  -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File "C:\Windows\System32\Scripts\Make-Import-ExchangeCert.ps1" #
 #                                                                                                                          #
 #  Make a directory called "pfx" under C:\Certbot\live\<your domain here>\                                                 #
-#  Ensure that the user this runs as has proper permissions to modify files in the pfx directory, too.                     #
+#  The user this runs as should have full permissions to that directory.                                                   #
+#  MAKE SURE TO HAVE CERTBOT GENERATE AN RSA CERTIFICATE - EXCHANGE HATES OTHER TYPES!                                     #
 ############################################################################################################################
