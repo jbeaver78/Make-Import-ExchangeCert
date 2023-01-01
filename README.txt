@@ -1,11 +1,11 @@
 # Make-Import-ExchangeCert
 Powershell script for importing Certbot Exchange certificate.
-############################################################################
-#         Microsoft Exchange Certbot Certificate Replacement Script        #
-#                 Written in December of 2022 by Jason Beaver              #
-#                                                                          #
-#  Prerequisites:  OpenSSL for Windows (x64), Microsoft Exchange, Certbot  #
-#                     Operating System:  Windows Server                    #
+#################################################################################
+#            Microsoft Exchange Certbot Certificate Replacement Script          #
+#                    Written in December of 2022 by Jason Beaver                #
+#                                                                               #
+#  Prerequisites:  OpenSSL for Windows (x64), Microsoft Exchange, IIS, Certbot  #
+#                     Operating System:  Windows Server                         #
 ############################################################################################################################
 #  Insert into Task Scheduler to run once per week.                                                                        #
 #  Suggested Parameters:                                                                                                   #
