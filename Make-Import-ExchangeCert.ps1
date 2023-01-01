@@ -9,7 +9,9 @@
 #  Suggested Parameters:                                                                                                   #
 #  -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -File "C:\Windows\System32\Scripts\Make-Import-ExchangeCert.ps1" #
 #                                                                                                                          #
-#  Make a directory called "pfx" under C:\Certbot\live\<your domain here>\                                                 #                                                                     #
+#  Make a directory called "pfx" under C:\Certbot\live\<your domain here>\                                                 #
+#  The user this runs as should have full permissions to that directory.                                                   #
+#  MAKE SURE TO HAVE CERTBOT GENERATE AN RSA CERTIFICATE - EXCHANGE HATES OTHER TYPES!                                     #
 ############################################################################################################################
 #   Use the log file for tracing if there are problems.
 #$LogFile = "C:\users\username\Documents\certlog.txt"
