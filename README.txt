@@ -15,3 +15,5 @@ Powershell script for importing Certbot Exchange certificate.
 #  The user this runs as should have full permissions to that directory.                                                   #
 #  MAKE SURE TO HAVE CERTBOT GENERATE AN RSA CERTIFICATE - EXCHANGE HATES OTHER TYPES!                                     #
 ############################################################################################################################
+#  OpenSSL was used instead of certutil because certutil errors out when trying to make a PFX no matter what I tried.      #
+############################################################################################################################
